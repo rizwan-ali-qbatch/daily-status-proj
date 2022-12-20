@@ -6,7 +6,7 @@ import myimage from '../assets/Qbatch_logo-removebg-preview.png';
 export default function ForgetPassword() {
   return (
     <>
-      <form className="inner">
+      <form className="ForgetPasswordinner">
         <img
           className="Qbatch_logo_remove_bg_preview1"
           src={myimage}
