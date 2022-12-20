@@ -1,4 +1,4 @@
-import './LoginStyles.css';
+import '../Styles/LoginStyles.css';
 import React from 'react';
 import '@fontsource/lato';
 import myimage from '../assets/Qbatch_logo-removebg-preview.png';

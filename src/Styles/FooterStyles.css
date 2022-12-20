@@ -1,0 +1,18 @@
+.FooterDash{
+  z-index: -2;
+  position: absolute;
+  left: 15.11%;
+  right: 0%;
+  top: 96.91%;
+  bottom: 0%;
+  background: #FFFFFF;
+}
+
+.FooterText{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  color: #9299B8;
+}

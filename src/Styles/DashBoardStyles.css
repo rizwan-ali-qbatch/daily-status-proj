@@ -1,0 +1,37 @@
+div.content {
+  z-index: -1;
+  background-color: #D6D6D6;
+  margin-left: 200px;
+  padding: 20px 24px;
+  height: 86vh;
+  position: absolute;
+}
+
+.DashboardProp{
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 86.61%;
+  margin-top: 68px;
+}
+
+.DashboardHead{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  color: #272B41;
+}
+
+
+.CreateNewTeam{
+  box-sizing: border-box;
+  position: absolute;
+  width: 162px;
+  height: 40px;
+  right: 24px;
+  top: 24px;
+}

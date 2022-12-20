@@ -1,0 +1,27 @@
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  z-index: -1;
+  background-color: #FFFFFF;
+  position: absolute;
+  height: 100vh;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: #4B5664;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.sidebar a:hover{
+  color: #0054A6;
+  background: hsl(210, 55%, 78%);
+  margin-left: 8px;
+  margin-right: 8px;
+  mix-blend-mode: normal;
+  border-radius: 4px;
+  opacity: 0.9;
+}

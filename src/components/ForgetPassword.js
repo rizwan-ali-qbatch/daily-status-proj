@@ -1,4 +1,4 @@
-import './ForgetPasswordStyles.css';
+import '../Styles/ForgetPasswordStyles.css';
 import React from 'react';
 import '@fontsource/lato';
 import myimage from '../assets/Qbatch_logo-removebg-preview.png';
@@ -8,7 +8,7 @@ export default function ForgetPassword() {
     <>
       <form className="ForgetPasswordinner">
         <img
-          className="Qbatch_logo_remove_bg_preview1"
+          className="Qbatch_logo_in_forgetPass"
           src={myimage}
           alt="Logo Icon"
         />
@@ -17,9 +17,9 @@ export default function ForgetPassword() {
           Please enter your qbatch email address and we'll send you instructions
           to reset your password.
         </p>
-        <label className="Email">Email</label>
+        <label className="ForgetPass">Email</label>
         <input
-          className="EmailField form-control"
+          className="ForgetPassField form-control"
           placeholder="name@qbatch.com"
         />
         <button className="SendResetInst">Send Reset Instructions</button>

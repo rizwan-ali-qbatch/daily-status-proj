@@ -1,17 +1,13 @@
 import React from 'react';
 import myimage from '../assets/Qbatch_logo-removebg-preview.png';
-import './SetNewPasswordStyles.css';
+import '../Styles/SetNewPasswordStyles.css';
 import '@fontsource/lato';
 
 export default function SetNewPassword() {
   return (
     <>
       <form className="SetNewPasswordinner">
-        <img
-          className="Qbatch_logo_remove_bg_preview1"
-          src={myimage}
-          alt="Logo Icon"
-        />
+        <img className="Qbatch_logo_in_NewPass" src={myimage} alt="Logo Icon" />
         <div className="SetNewPasswordHead">Set New Password</div>
         <p className="SetNewPasswordInst">
           Please enter new strong password to be used for your Qbatch account.
