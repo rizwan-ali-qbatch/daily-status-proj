@@ -1,0 +1,247 @@
+/* .backgroundcls{
+  position: relative;
+  width: 1440px;
+  height: 786px;
+  background: #EBEEF5;
+}
+
+
+.Rectangle1{
+  position: absolute;
+  width: 1400px;
+  height: 528.58px;
+  left: -29px;
+  top: 442px;
+  transform: rotate(10deg);
+  background: #0054A6;
+}
+
+.Rectangle2{
+  position: absolute;
+  width: 1599px;
+  height: 528.58px;
+  left: -137px;
+  top: 447px;
+  transform: rotate(10deg);
+  background: #FFFFFF;
+} */
+
+.inner{
+  position: absolute;
+  width: 644px;
+  height: 611px;
+  left: 361px;
+  top: 87px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+.Qbatch_logo_remove_bg_preview1{
+  position: absolute;
+  /* width: auto;
+  height: auto; */
+  left: 250px;
+  top: 7px;
+/* background: url(Qbatch_logo-removebg-preview.png); */
+}
+
+.sign_in_to_your_account{
+  position: absolute;
+  width: 254px;
+  height: 28px;
+  left: 23px;
+  top: 137px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.02em;
+  color: #272B41;
+}
+
+.Email{
+position: absolute;
+height: 14px;
+left: 4.09%;
+right: 67.79%;
+top: calc(45% - 14px/2 - 69px);
+font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 14px;
+display: flex;
+align-items: center;
+color: #757575;
+}
+
+
+.EmailField{
+  position: absolute;
+  left: 4.09%;
+  right: 30.09%;
+  top: 35.62%;
+  bottom: 57.29%;
+  width: 90%;
+  background: #FFFFFF;
+  border-radius: 4px;
+}
+
+
+.Password{
+  position: absolute;
+  height: 14px;
+  left: 4.09%;
+  right: 66.18%;
+  top: calc(45% - 14px/2 + 13px);
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  color: #757575;
+}
+
+.PasswordField{
+  position: absolute;
+  left: 4.09%;
+  right: 30.09%;
+  top: 49.05%;
+  bottom: 43.86%;
+  width: 90%;
+  background: #FFFFFF;
+  border-radius: 4px;
+}
+
+.chkbox{
+  position: absolute;
+  left: 4.09%;
+  right: 68.81%;
+  top: 58.51%;
+  bottom: 37.79%;
+  border: 1px solid #E3E6EF;
+  border-radius: 3.5px;
+}
+
+.keep_me_logged_in{
+  position: absolute;
+  height: 16px;
+  left: 7.53%;
+  right: 6.92%;
+  top: calc(46% - 16px/2 + 88px);
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #272B41;
+}
+
+.forgotPassword{
+  position: absolute;
+  height: 16px;
+  left: 74.96%;
+  right: 3.09%;
+  top: calc(46% - 16px/2 + 88px);
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #0054A6;
+}
+
+.sign_in_btn{
+  position: absolute;
+  width: 90%;
+  left: 4.09%;
+  right: 30.09%;
+  top: 68.32%;
+  bottom: 24.89%;
+  color:white;
+  background: #0054A6;
+  border-radius: 5px;
+}
+
+.line_74{
+  position: absolute;
+  left: 51.68%;
+  right: 39.68%;
+  top: 77.48%;
+  bottom: 22.39%;
+  border: 1px solid #E3E6EF;
+}
+
+.line_73{
+  position: absolute;
+  left: 39.68%;
+  right: 51.68%;
+  top: 77.48%;
+  bottom: 22.39%;
+  border: 1px solid #E3E6EF;
+}
+
+.line46{
+  position: absolute;
+  left: 67.94%;
+  right: 31.04%;
+  top: 54.71%;
+  bottom: 43.51%;
+  border: 1.8px solid #ADB4D2;
+}
+
+.or{
+  position: absolute;
+  height: 16px;
+  left: 49%;
+  right: -7.69%;
+  top: calc(82% - 16px/2 - 0.5px);
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #5A5F7D;
+}
+
+.Not_a_member_yet{
+  position: absolute;
+  height: 16px;
+  left: 36.73%;
+  right: 6.66%;
+  top: calc(47% - 16px/2 + 257px);
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #272B41;
+}
+
+.sign_up{
+  position: absolute;
+  height: 16px;
+  left: 53.78%;
+  right: 33.9%;
+  top: calc(47% - 16px/2 + 257px);
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #0054A6;
+}
