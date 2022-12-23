@@ -1,0 +1,94 @@
+.NewMemberForminner{
+  position: absolute;
+  width: 628px;
+  height: 394px;
+  left: 420px;
+  top: 87px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+
+.CreateNewTeamHead{
+  position: absolute;
+  width: 254px;
+  height: 28px;
+  left: 5%;
+  top: 5%;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.02em;
+  color: #272B41;
+}
+
+.headboarder{
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 16.93%;
+  bottom: 83.07%;
+  border: 1px solid #E3E6EF;
+}
+
+.AddTeamMembersTxt2{
+  position: absolute;
+  height: 14px;
+  left: 4.09%;
+  right: 66.18%;
+  top: calc(18% - 14px/2 + 13px);
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  color: #757575;
+}
+
+
+.AddTeamMembersField2{
+  position: absolute;
+  left: 4.09%;
+  right: 30.09%;
+  top: 24.05%;
+  bottom: 63.86%;
+  width: 91%;
+  background: #FFFFFF;
+  border-radius: 4px;
+}
+
+
+
+.confirmMemberBtn{
+  position: absolute;
+  width: 110px;
+  height: 40px;
+  left: 78.09%;
+  right: 30.09%;
+  top: 84.32%;
+  bottom: 6.89%;
+  color: white;
+  background: #0054A6;
+  border: 1px solid #0054A6;
+  border-radius: 5px;
+}
+
+.cancelMemberBtn{
+  position: absolute;
+  width: 74px;
+  height:40px;
+  left: 64.09%;
+  right: 30.09%;
+  top: 84.32%;
+  bottom: 6.89%;
+  color:#9299B8;
+  border: 1px solid #E3E6EF;
+  border-radius: 5px;
+}

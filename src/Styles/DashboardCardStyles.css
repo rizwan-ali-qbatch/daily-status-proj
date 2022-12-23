@@ -1,0 +1,190 @@
+.dashboardcardcomp{
+  position: absolute;
+  width: 564px;
+  height: 186px;
+  left: 1.86%;
+  right: 43.05%;
+  top: 22.84%;
+  bottom: 52.39%;
+
+  background: #FFFFFF;
+  border-radius: 10px;
+}
+
+.cardImg{
+  position: absolute;
+  left: 3%;
+  top: 10%;
+}
+
+.cardInnerImg{
+  position: absolute;
+  left: 30%;
+  top: 30%;
+}
+
+.AddIcon{
+  position: absolute;
+  cursor: pointer;
+  right: 15%;
+  top: 5%;
+}
+
+.EditIcon{
+  position: absolute;
+  cursor: pointer;
+  right: 10%;
+  top: 5%;
+}
+
+.DeleteIcon{
+  position: absolute;
+  cursor: pointer;
+  right: 5%;
+  top: 5%;
+}
+
+.cardHead{
+  position: absolute;
+  left: 20%;
+  top: 10%;
+  font-family: 'Lato';
+  font-style: bold;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  color: #272B41;
+}
+
+.cardAttribute1{
+  position: absolute;
+  left: 20%;
+  top: 30%;
+
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight:600;
+  font-size: 14px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  color: #272B41;
+}
+
+.cardValue1{
+  position: absolute;
+  left: 40%;
+  top: 30%;
+
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #747890;
+}
+
+.cardAttribute2{
+  position: absolute;
+  left: 20%;
+  top: 45%;
+
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #272B41;
+}
+
+.cardValue2{
+  position: absolute;
+  left: 44%;
+  top: 45%;
+
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #747890;
+}
+
+.cardAttribute3{
+  position: absolute;
+  left: 20%;
+  top: 60%;
+
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #272B41;
+}
+
+.cardValue3{
+  position: absolute;
+  left: 40%;
+  top: 60%;
+
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #747890;
+}
+
+.cardAttribute4{
+  position: absolute;
+  left: 20%;
+  top: 75%;
+
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #272B41;
+}
+
+.cardValue4{
+  position: absolute;
+  left: 29%;
+  top: 74%;
+
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #272B41;
+}
+
+/* .dashboardcardcomp2{
+  position: absolute;
+  width: 564px;
+  height: 186px;
+  left: 51.86%;
+  right: 43.05%;
+  top: 27.84%;
+  bottom: 52.39%;
+
+  background: #FFFFFF;
+  border-radius: 10px;
+} */

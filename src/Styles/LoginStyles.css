@@ -39,10 +39,10 @@
 
 .Qbatch_logo_remove_bg_preview1{
   position: absolute;
-  /* width: auto;
-  height: auto; */
-  left: 250px;
-  top: 7px;
+  width: 164px;
+  height: 60px;
+  left: 37%;
+  top: 5%;
 /* background: url(Qbatch_logo-removebg-preview.png); */
 }
 
@@ -169,6 +169,7 @@ color: #757575;
   top: 68.32%;
   bottom: 24.89%;
   color:white;
+  border: 1px solid #0054A6;
   background: #0054A6;
   border-radius: 5px;
 }

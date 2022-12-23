@@ -1,11 +1,11 @@
 .sidebar {
   margin: 0;
   padding: 0;
-  width: 200px;
+  width: 220px;
   z-index: -1;
   background-color: #FFFFFF;
   position: absolute;
-  height: 100vh;
+  height: 873px;
   overflow: auto;
 }
 

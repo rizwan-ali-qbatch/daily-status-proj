@@ -1,0 +1,48 @@
+.ShowMemberComp{
+  position: absolute;
+  width: 139px;
+  height: 40px;
+  left: 4%;
+  top: 40%;
+  display: inline-block;
+
+  background: rgba(0, 84, 166, 0.05);
+  border-radius: 5px;
+}
+
+
+.ShowMemberImg{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 0%;
+  top: 0%;
+  display: inline-block;
+  background-color: aqua;
+  border-radius: 5px;
+}
+
+.ShowMemberName{
+  position: absolute;
+  width: 139px;
+  height: 40px;
+  left: 32%;
+  top: 30%;
+
+  display: inline-block;
+
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #272B41;
+}
+
+.ShowMemberCloseBtn{
+  display: inline-block;
+  cursor: pointer;
+  position: absolute;
+  left: 85%;
+  top: 19%;
+}

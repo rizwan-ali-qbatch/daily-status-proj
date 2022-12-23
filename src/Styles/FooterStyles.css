@@ -1,14 +1,15 @@
 .FooterDash{
   z-index: -2;
   position: absolute;
-  left: 15.11%;
+  left: 17.11%;
   right: 0%;
-  top: 96.91%;
+  top: 875px;
   bottom: 0%;
   background: #FFFFFF;
 }
 
 .FooterText{
+  margin-right: 220px;
   font-family: 'Lato';
   font-style: normal;
   font-weight: 600;

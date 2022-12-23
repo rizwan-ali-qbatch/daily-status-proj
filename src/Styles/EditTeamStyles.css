@@ -1,0 +1,197 @@
+.EditTeaminner{
+  position: absolute;
+  width: 628px;
+  height: 394px;
+  left: 420px;
+  top: 87px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+
+.EditTeamHead{
+  position: absolute;
+  width: 254px;
+  height: 28px;
+  left: 5%;
+  top: 5%;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.02em;
+  color: #272B41;
+}
+
+.EditTeamheadboarder{
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 16.93%;
+  bottom: 83.07%;
+  border: 1px solid #E3E6EF;
+}
+
+.TeamNameInEdit{
+  position: absolute;
+  height: 14px;
+  left: 4.09%;
+  right: 67.79%;
+  top: calc(41% - 14px/2 - 69px);
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  color: #757575;
+}
+
+
+.TeamNameFieldInEdit{
+  position: absolute;
+  left: 4.09%;
+  right: 46.27%;
+  top: 27.5%;
+  bottom: 60.25%;
+  width: 43%;
+  background: #FFFFFF;
+  border-radius: 4px;
+}
+
+.EmailOfTeamLeadInEdit{
+  position: absolute;
+  height: 14px;
+  left: 4.09%;
+  right: 31.18%;
+  top: calc(43% - 14px/2 + 13px);
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  color: #757575;
+}
+
+.EmailOfTeamLeadFieldInEdit{
+  position: absolute;
+  left: 4.09%;
+  right: 33.09%;
+  top: 49.5%;
+  bottom: 37.86%;
+  width: 43%;
+  background: #FFFFFF;
+  border-radius: 4px;
+}
+
+.TeamLeadNameInEdit{
+  position: absolute;
+  height: 14px;
+  left: 52.09%;
+  right: 31.18%;
+  top: calc(20% - 14px/2 + 13px);
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  color: #757575;
+}
+
+.TeamLeadNameFieldInEdit{
+  position: absolute;
+  left: 52.09%;
+  right: 30.09%;
+  top: 27.5%;
+  bottom: 59.86%;
+  width: 43%;
+  background: #FFFFFF;
+  border-radius: 4px;
+}
+
+
+.AddTeamMembersTxtInEdit{
+  position: absolute;
+  height: 14px;
+  left: 4.09%;
+  right: 66.18%;
+  top: calc(62% - 14px/2 + 13px);
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  color: #757575;
+}
+
+.AddTeamMembersFieldInEdit{
+  position: absolute;
+  left: 4.09%;
+  right: 30.09%;
+  top: 69.05%;
+  bottom: 18.86%;
+  width: 91%;
+  background: #FFFFFF;
+  border-radius: 4px;
+}
+
+.statusInEdit{
+  position: absolute;
+  height: 14px;
+  left: 52.09%;
+  right: 30.18%;
+  top: calc(43% - 14px/2 + 13px);
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  color: #757575;
+}
+
+
+
+
+/* .AddTeamMembersField:before{
+
+} */
+
+.confirmBtnInEdit{
+  position: absolute;
+  width: 110px;
+  height: 40px;
+  left: 78.09%;
+  right: 30.09%;
+  top: 84.32%;
+  bottom: 6.89%;
+  color: white;
+  background: #0054A6;
+  border: 1px solid #0054A6;
+  border-radius: 5px;
+}
+
+.cancelBtnInEdit{
+  position: absolute;
+  width: 74px;
+  height:40px;
+  left: 64.09%;
+  right: 30.09%;
+  top: 84.32%;
+  bottom: 6.89%;
+  color:#9299B8;
+  border: 1px solid #E3E6EF;
+  border-radius: 5px;
+}

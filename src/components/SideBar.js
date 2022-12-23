@@ -1,15 +1,18 @@
 import React from 'react';
 import '../Styles/SidebarStyles.css';
 import '@fontsource/lato';
+import { Link } from 'react-router-dom';
+import houseIcon from '../assets/House-Icon.svg';
 
 export default function SideBar() {
   return (
     <>
       <div className="sidebar">
-        <a href="/" style={{ marginTop: '95px' }}>
-          &#127968; Dashboard
-        </a>
-        <a href="/">
+        <Link to="/dashboard" style={{ marginTop: '70px' }}>
+          <img src={houseIcon} alt="houseIcon" style={{ marginTop: '-3px' }} />{' '}
+          Dashboard
+        </Link>
+        <Link to={'/login'}>
           <svg
             width="14"
             height="12"
@@ -27,7 +30,7 @@ export default function SideBar() {
             />
           </svg>
           &nbsp;Logout
-        </a>
+        </Link>
       </div>
     </>
   );

@@ -1,7 +1,8 @@
 .NavbarBG{
   /* width: auto; */
   height: 68px;
-  position: fixed;
+  /* position: fixed; */
+  position: absolute;
   left: 0%;
   right: 0%;
   top: 0%;
@@ -12,13 +13,24 @@
 
 .Qbatch_logo_in_Dashboard{
 position: absolute;
-width: 98px;
-height: 68px;
+width:"98px";
+height:"36px";
 left: 24px;
-top: 0px;
+top: 10px;
 }
 
-.UserProfileImg{
-  width: 41.29px;
-  /* height: 44.47px; */
+.helpBtn
+{
+  position:absolute;
+  top: 33%;
+  right: 7%;
+  cursor: pointer;
+}
+
+.settingBtn
+{
+  position:absolute;
+  top:33%;
+  right: 4.5%;
+  cursor: pointer;
 }

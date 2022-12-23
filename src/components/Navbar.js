@@ -1,22 +1,24 @@
 import React from 'react';
-import myimage from '../assets/Qbatch_logo-removebg-preview.png';
+import myimage from '../assets/Qbatch_logo.svg';
+import myprofileimage from '../assets/prof-image.svg';
 import '../Styles/NavbarStyles.css';
 import '@fontsource/lato';
+import { Link } from 'react-router-dom';
 
 export default function Navbar() {
   return (
     <>
       <nav className="navbar NavbarBG">
         <div className="container-fluid">
-          <a className="navbar-brand" href="/">
+          <Link className="navbar-brand" to="/dashboard">
             <img
               className="Qbatch_logo_in_Dashboard"
               src={myimage}
               alt="Logo Icon"
             />
-          </a>
+          </Link>
           <form className="d-flex">
-            <div className="helpBtn me-3">
+            <div className="helpBtn">
               <svg
                 width="19"
                 height="19"
@@ -34,7 +36,7 @@ export default function Navbar() {
                 />
               </svg>
             </div>
-            <div className="settingBtn me-3">
+            <div className="settingBtn">
               <svg
                 width="18"
                 height="19"
@@ -54,12 +56,11 @@ export default function Navbar() {
             </div>
             <img
               // className="UserProfileImg"
-              src=""
-              alt=" "
+              src={myprofileimage}
+              alt="profImg"
               style={{
+                cursor: 'pointer',
                 borderRadius: '50%',
-                paddingTop: '5px',
-                paddingRight: '24px',
               }}
             />
           </form>
