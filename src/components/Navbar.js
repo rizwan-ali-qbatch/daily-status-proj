@@ -59,6 +59,9 @@ export default function Navbar() {
               src={myprofileimage}
               alt="profImg"
               style={{
+                position: 'absolute',
+                right: '1.8%',
+                top: '23%',
                 cursor: 'pointer',
                 borderRadius: '50%',
               }}

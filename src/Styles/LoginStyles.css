@@ -1,92 +1,65 @@
-/* .backgroundcls{
-  position: relative;
-  width: 1440px;
-  height: 786px;
-  background: #EBEEF5;
-}
-
-
-.Rectangle1{
-  position: absolute;
-  width: 1400px;
-  height: 528.58px;
-  left: -29px;
-  top: 442px;
-  transform: rotate(10deg);
-  background: #0054A6;
-}
-
-.Rectangle2{
-  position: absolute;
-  width: 1599px;
-  height: 528.58px;
-  left: -137px;
-  top: 447px;
-  transform: rotate(10deg);
-  background: #FFFFFF;
-} */
-
 .inner{
   position: absolute;
-  width: 644px;
-  height: 611px;
-  left: 398px;
-  top: 87px;
+  margin: auto;
+  top: 1.5%;
+  width: 47%;
+  height: 80%;
   background: #FFFFFF;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
   border-radius: 5px;
 }
 
 .Qbatch_logo_remove_bg_preview1{
   position: absolute;
-  width: 164px;
-  height: 60px;
-  left: 37%;
-  top: 5%;
-/* background: url(Qbatch_logo-removebg-preview.png); */
+  width: 33%;
+  height: 12%;
+  left: 33.5%;
+  top: 8%;
 }
 
 .sign_in_to_your_account{
   position: absolute;
-  width: 254px;
-  height: 28px;
-  left: 23px;
-  top: 137px;
+  width: 95%;
+  height: 13%;
+  left: 7.8%;
+  top: 30%;
   font-family: 'Lato';
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
+  /* font-size: 1.6666666666666667vw; */
   line-height: 28px;
   display: flex;
   align-items: center;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.058em;
   color: #272B41;
 }
 
 .Email{
-position: absolute;
-height: 14px;
-left: 4.09%;
-right: 67.79%;
-top: calc(45% - 14px/2 - 69px);
-font-family: 'Lato';
-font-style: normal;
-font-weight: 600;
-font-size: 12px;
-line-height: 14px;
-display: flex;
-align-items: center;
-color: #757575;
+  position: absolute;
+  height: 14px;
+  left: 7.8%;
+  right: 67.79%;
+  top: 45.8%;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  /* font-size: 0.8333333333333334vw; */
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  color: #757575;
 }
 
 
 .EmailField{
   position: absolute;
-  left: 4.09%;
+  left: 7.6%;
   right: 30.09%;
-  top: 35.62%;
-  bottom: 57.29%;
-  width: 90%;
+  top: 49%;
+  bottom: 42.8%;
+  width: 84.8%;
   background: #FFFFFF;
   border-radius: 4px;
 }
@@ -95,13 +68,14 @@ color: #757575;
 .Password{
   position: absolute;
   height: 14px;
-  left: 4.09%;
+  left: 7.9%;
   right: 66.18%;
-  top: calc(45% - 14px/2 + 13px);
+  top: 62%;
   font-family: 'Lato';
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
+  /* font-size: 0.8333333333333334vw; */
   line-height: 14px;
   display: flex;
   align-items: center;
@@ -110,68 +84,75 @@ color: #757575;
 
 .PasswordField{
   position: absolute;
-  left: 4.09%;
+  left: 7.6%;
   right: 30.09%;
-  top: 49.05%;
-  bottom: 43.86%;
-  width: 90%;
+  top: 65.2%;
+  bottom: 26.5%;
+  width: 84.8%;
   background: #FFFFFF;
   border-radius: 4px;
 }
 
 .chkbox{
   position: absolute;
-  left: 4.09%;
-  right: 68.81%;
-  top: 58.51%;
+  left: 7.8%;
+  top: 76%;
   bottom: 37.79%;
   border: 1px solid #E3E6EF;
+  display: inline-block;
   border-radius: 3.5px;
 }
 
 .keep_me_logged_in{
   position: absolute;
-  height: 16px;
-  left: 7.53%;
-  right: 6.92%;
-  top: calc(46% - 16px/2 + 88px);
+  height: 6%;
+  width: 20%;
+  left: 11.25%;
+  top: 76.5%;
   font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
+  /* font-size: 0.9722222222222222vw; */
   line-height: 16px;
-  display: flex;
+  letter-spacing: 0.042em;
+  display: inline-block;
   align-items: center;
   color: #272B41;
 }
 
 .forgotPassword{
   position: absolute;
-  height: 16px;
-  left: 74.96%;
-  right: 3.09%;
-  top: calc(46% - 16px/2 + 88px);
+  height: 1%;
+  width: 40%;
+  left: 64%;
+  right: 5%;
+  top: 75%;
   font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
+  /* font-size: 0.9722222222222222vw; */
+  font-size: 14px;
+  letter-spacing: 0.04em;
   line-height: 16px;
-  display: flex;
+  display: inline-block;
   align-items: center;
   color: #0054A6;
 }
 
 .sign_in_btn{
+  cursor: pointer;
   position: absolute;
-  width: 90%;
-  left: 4.09%;
+  width: 85%;
+  left: 7.5%;
   right: 30.09%;
-  top: 68.32%;
-  bottom: 24.89%;
-  color:white;
-  border: 1px solid #0054A6;
+  top: 89%;
+  bottom: 2.8%;
+  color: white;
   background: #0054A6;
   border-radius: 5px;
+  border: 1px solid #0054A6;
 }
 
 .line_74{

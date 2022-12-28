@@ -1,10 +1,20 @@
 .backgroundcls{
-  position: relative;
-  width: 1440px;
-  height: 786px;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: #EBEEF5;
 }
 
+.backgroundsize{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/*
 .Rectangle1{
   position: absolute;
   width: 1400px;
@@ -23,4 +33,4 @@
   top: 447px;
   transform: rotate(10deg);
   background: #FFFFFF;
-}
+} */

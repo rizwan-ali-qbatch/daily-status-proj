@@ -13,24 +13,27 @@
 
 .Qbatch_logo_in_Dashboard{
 position: absolute;
-width:"98px";
-height:"36px";
+/* width:98px;
+height:36px;
 left: 24px;
-top: 10px;
+top: 10px; */
+width: 102px;
+left: 26px;
+top: 14px;
 }
 
 .helpBtn
 {
-  position:absolute;
-  top: 33%;
-  right: 7%;
+  position: absolute;
+  top: 27%;
+  right: 8.35%;
   cursor: pointer;
 }
 
 .settingBtn
 {
   position:absolute;
-  top:33%;
-  right: 4.5%;
+  top:27%;
+  right: 5.8%;
   cursor: pointer;
 }

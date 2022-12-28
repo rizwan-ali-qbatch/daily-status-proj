@@ -1,5 +1,6 @@
 .DeletePopupinner{
-  position: absolute;
+  /* position: absolute; */
+  position: sticky;
   width: 440px;
   height: 294px;
   left: 526px;

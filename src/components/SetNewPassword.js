@@ -1,5 +1,6 @@
 import React from 'react';
 import myimage from '../assets/Qbatch_logo2.svg';
+import backgroundimg from '../assets/UpdatedQbatchBackground.svg';
 import '../Styles/SetNewPasswordStyles.css';
 import '@fontsource/lato';
 import { Link } from 'react-router-dom';
@@ -8,8 +9,11 @@ export default function SetNewPassword() {
   return (
     <>
       <div className="backgroundcls">
-        <div className="Rectangle1"></div>
-        <div className="Rectangle2"></div>
+        <img
+          className="backgroundsize"
+          src={backgroundimg}
+          alt="backgroundImg"
+        />
         <form className="SetNewPasswordinner">
           <img
             className="Qbatch_logo_in_NewPass"
@@ -30,13 +34,11 @@ export default function SetNewPassword() {
             className="CPasswordField form-control"
             placeholder="Confirm Password Here"
           />
-          <button className="sign_in_btn">Reset Password</button>
-          {/* <div className="line73"></div> */}
-          <div className="or">or</div>
-          {/* <div className="line74"></div> */}
+          <button className="sign_in_btn2">Reset Password</button>
+          <div className="ortxtinnewPass">or</div>
           <div className="returntxt">Return to</div>
           <Link to={'/login'}>
-            <div className="btn sign_In">Sign In</div>
+            <div className="sign_In">Sign In</div>
           </Link>
         </form>
       </div>

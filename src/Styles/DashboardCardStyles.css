@@ -1,20 +1,19 @@
 .dashboardcardcomp{
   position: absolute;
   width: 564px;
-  height: 186px;
-  left: 1.86%;
+  height: 176px;
+  left: 2%;
   right: 43.05%;
   top: 22.84%;
   bottom: 52.39%;
-
   background: #FFFFFF;
   border-radius: 10px;
 }
 
 .cardImg{
   position: absolute;
-  left: 3%;
-  top: 10%;
+  left: 5%;
+  top: 11%;
 }
 
 .cardInnerImg{
@@ -46,19 +45,20 @@
 
 .cardHead{
   position: absolute;
-  left: 20%;
-  top: 10%;
+  left: 22.8%;
+  top: 12%;
   font-family: 'Lato';
   font-style: bold;
   font-weight: 700;
   font-size: 16px;
   line-height: 16px;
+  letter-spacing: 0.03em;
   color: #272B41;
 }
 
 .cardAttribute1{
   position: absolute;
-  left: 20%;
+  left: 22.8%;
   top: 30%;
 
   font-family: 'Lato';
@@ -68,12 +68,13 @@
   line-height: 14px;
   display: flex;
   align-items: center;
+  letter-spacing: 0.03em;
   color: #272B41;
 }
 
 .cardValue1{
   position: absolute;
-  left: 40%;
+  left: 44.3%;
   top: 30%;
 
   font-family: 'Lato';
@@ -83,14 +84,14 @@
   line-height: 16px;
   display: flex;
   align-items: center;
+  letter-spacing: 0.03em;
   color: #747890;
 }
 
 .cardAttribute2{
   position: absolute;
-  left: 20%;
+  left: 22.8%;
   top: 45%;
-
   font-family: 'Lato';
   font-style: normal;
   font-weight: 600;
@@ -98,12 +99,13 @@
   line-height: 16px;
   display: flex;
   align-items: center;
+  letter-spacing: 0.03em;
   color: #272B41;
 }
 
 .cardValue2{
   position: absolute;
-  left: 44%;
+  left: 48.5%;
   top: 45%;
 
   font-family: 'Lato';
@@ -118,8 +120,8 @@
 
 .cardAttribute3{
   position: absolute;
-  left: 20%;
-  top: 60%;
+  left: 22.8%;
+  top: 60.5%;
 
   font-family: 'Lato';
   font-style: normal;
@@ -129,11 +131,12 @@
   display: flex;
   align-items: center;
   color: #272B41;
+  letter-spacing: 0.03em;
 }
 
 .cardValue3{
   position: absolute;
-  left: 40%;
+  left: 43.8%;
   top: 60%;
 
   font-family: 'Lato';
@@ -143,13 +146,14 @@
   line-height: 16px;
   display: flex;
   align-items: center;
+  letter-spacing: 0.03em;
   color: #747890;
 }
 
 .cardAttribute4{
   position: absolute;
-  left: 20%;
-  top: 75%;
+  left: 22.8%;
+  top: 77%;
 
   font-family: 'Lato';
   font-style: normal;
@@ -163,8 +167,8 @@
 
 .cardValue4{
   position: absolute;
-  left: 29%;
-  top: 74%;
+  left: 32%;
+  top: 76%;
 
   font-family: 'Lato';
   font-style: normal;

@@ -1,20 +1,16 @@
 import React from 'react';
-import '@fontsource/lato';
 
 import Navbar from './Navbar';
 import SideBar from './SideBar';
 import Footer from './Footer';
-import Content from './Content';
+import TeamDetailPage from './TeamDetailPage';
 
-// import TeamDetailPage from './TeamDetailPage';
-
-export default function DashBoard() {
+export default function TeamDetailDashboard() {
   return (
     <>
       <Navbar />
       <SideBar />
-      <Content />
-      {/* <TeamDetailPage /> */}
+      <TeamDetailPage />
       <Footer />
     </>
   );

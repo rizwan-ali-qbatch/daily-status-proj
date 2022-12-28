@@ -1,0 +1,304 @@
+div.TeamDetail {
+  z-index: -1;
+  background-color: #F2F3F6;
+  /* margin-left: 220px; */
+  margin-left: 232px;
+  padding: 24px 24px;
+  height: 800px;
+  position: absolute;
+}
+
+#Demo{
+  display: none;
+}
+
+#Demo1{
+  display: none;
+}
+
+#Demo2{
+  display: none;
+}
+
+#Demo3{
+  display: none;
+}
+
+.overlay2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 900px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.DashboardProp2{
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 86.61%;
+  margin-top: 68px;
+}
+
+.TeamDetailHead{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  color: #272B41;
+}
+
+.TeamDetailInfoHead{
+  position: absolute;
+  width: 106px;
+  height: 20px;
+  left: 2%;
+  top: 4%;
+
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.dashboardcardcomp2{
+  position: absolute;
+  width: 96%;
+  height: 87%;
+  left: 1.86%;
+  right: 43.05%;
+  top: 9%;
+  bottom: 52.39%;
+  background: #FFFFFF;
+  border-radius: 10px;
+}
+
+.TeamDatailAddTeamBtn{
+  cursor: pointer;
+  position: absolute;
+  right: 27%;
+  top: 3%;
+}
+
+.TeamDatailEditTeamBtn{
+  cursor: pointer;
+  position: absolute;
+  right: 15%;
+  top: 3%;
+}
+
+.TeamDatailDltTeamBtn{
+  cursor: pointer;
+  position: absolute;
+  right: 2%;
+  top: 3%;
+}
+
+.TeamDetailImgbox{
+  position: absolute;
+  left: 2%;
+  top: 12%;
+  width: 100px;
+  height: 100px;
+  background: #EFF2F7;
+  border-radius: 10px;
+}
+
+.TeamDetailInnerImg{
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  left: 25%;
+  top: 25%;
+}
+
+.DevTeamHeadInTeamDetail{
+  position: absolute;
+  left: 12%;
+  top: 12%;
+
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  color: #272B41;
+}
+
+
+.TeamAttr1{
+  position: absolute;
+  width: 110px;
+  height: 14px;
+  left: 12%;
+  top: 16%;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  color: #272B41;
+}
+
+.TeamAttr2{
+  position: absolute;
+  width: 110px;
+  height: 14px;
+  left: 35%;
+  top: 16%;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  color: #272B41;
+}
+
+.TeamAttr3{
+  position: absolute;
+  width: 150px;
+  height: 14px;
+  left: 12%;
+  top: 20%;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  color: #272B41;
+}
+
+.TeamAttr4{
+  position: absolute;
+  width: 110px;
+  height: 14px;
+  left: 35%;
+  top: 20%;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  color: #272B41;
+}
+
+.TeamAttr5{
+  position: absolute;
+  width: 110px;
+  height: 14px;
+  left: 12%;
+  top: 24%;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  color: #272B41;
+}
+
+.TeamVal1{
+  position: absolute;
+  width: 59px;
+  height: 16px;
+  left: 22%;
+  top: 16%;
+
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #747890;
+}
+
+.TeamVal2{
+  position: absolute;
+  width: 59px;
+  height: 16px;
+  left: 45%;
+  top: 16%;
+
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #747890;
+}
+
+.TeamVal3{
+  position: absolute;
+  width: 59px;
+  height: 16px;
+  left: 24%;
+  top: 20%;
+
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #747890;
+}
+
+.TeamVal4{
+  position: absolute;
+  width: 159px;
+  height: 16px;
+  left: 45%;
+  top: 20%;
+
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #747890;
+}
+
+.TeamVal5{
+  position: absolute;
+  width: 59px;
+  height: 16px;
+  left: 16%;
+  top: 23.3%;
+}
+
+
+.TeamDetailTeamMemberHead{
+  position: absolute;
+  left: 2%;
+  top: 35%;
+
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: #000000;
+}
+

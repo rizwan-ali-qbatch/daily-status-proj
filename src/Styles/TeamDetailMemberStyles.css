@@ -1,0 +1,72 @@
+.dashboardcardcomp3{
+  position: absolute;
+  width: 30%;
+  height: 30%;
+  left: 1.86%;
+  right: 43.05%;
+  top: 41%;
+  bottom: 52.39%;
+  background: #FFFFFF;
+  border-radius: 10px;
+  border: 1px solid #E3E6EF;
+  border-radius: 10px;
+}
+
+
+.MemberDetailName{
+  width: 68px;
+  height: 16px;
+  position: absolute;
+  left: 42%;
+  top: 59%;
+
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #272B41;
+}
+
+.MemberDetailProf{
+  width: 124px;
+  height: 16px;
+  position: absolute;
+  left: 33%;
+  top: 69%;
+
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #747890;
+}
+
+.MemberDetailMail{
+  position: absolute;
+  width: 134px;
+  height: 16px;
+  left: 32%;
+  top: 79%;
+
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #747890;
+}
+
+.DltBtnInTeamDetail{
+  position: absolute;
+  cursor: pointer;
+  right: 5.76%;
+  top: 4%;
+}

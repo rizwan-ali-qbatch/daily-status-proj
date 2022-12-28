@@ -1,5 +1,6 @@
 .EditTeaminner{
-  position: absolute;
+  /* position: absolute; */
+  position: sticky;
   width: 628px;
   height: 394px;
   left: 420px;
@@ -191,7 +192,8 @@
   right: 30.09%;
   top: 84.32%;
   bottom: 6.89%;
-  color:#9299B8;
+  cursor: pointer;
+  /* color:#9299B8;
   border: 1px solid #E3E6EF;
-  border-radius: 5px;
+  border-radius: 5px; */
 }

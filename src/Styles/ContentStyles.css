@@ -2,8 +2,8 @@
 div.content {
   z-index: -1;
   background-color: #F2F3F6;
-  ;
-  margin-left: 220px;
+  /* margin-left: 220px; */
+  margin-left: 232px;
   padding: 24px 24px;
   height: 800px;
   position: absolute;
@@ -23,6 +23,18 @@ div.content {
   display: none;
 }
 
+#demo1{
+  display: none;
+}
+
+#demo2{
+  display: none;
+}
+
+#demo3{
+  display: none;
+}
+
 .DashboardProp{
   position: absolute;
   left: 0%;
@@ -38,7 +50,7 @@ div.content {
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.05em;
   color: #272B41;
 }
 
@@ -46,20 +58,20 @@ div.content {
   box-sizing: border-box;
   position: absolute;
   cursor: pointer;
-  width: 162px;
+  width: 158px;
   height: 40px;
-  right: 1.81%;
-  top: 18px;
+  right: 2.5%;
+  top: 19px;
 }
 
 .TotalTeams{
   height: 82px;
-  width: 346px;
+  width: 367px;
   position: absolute;
   cursor: pointer;
-  left: 1.86%;
+  left: 1.9%;
   right: 72.81%;
-  top: 9.58%;
+  top: 10%;
   bottom: 81.71%;
   background: #FFFFFF;
   border-radius: 10px;
@@ -67,12 +79,12 @@ div.content {
 
 .TotalTeamsLeads{
   height: 82px;
-  width: 346px;
+  width: 366px;
   position: absolute;
   cursor: pointer;
-  left: 35.86%;
+  left: 34.8%;
   right: 43.81%;
-  top: 9.58%;
+  top: 10%;
   bottom: 81.71%;
   background: #FFFFFF;
   border-radius: 10px;
@@ -80,12 +92,12 @@ div.content {
 
 .TotalMembers{
   height: 82px;
-  width: 346px;
+  width: 368px;
   position: absolute;
   cursor: pointer;
-  left: 69.86%;
+  left: 67.55%;
   right: 14.81%;
-  top: 9.58%;
+  top: 10%;
   bottom: 81.71%;
   background: #FFFFFF;
   border-radius: 10px;
@@ -96,21 +108,22 @@ div.content {
   height: 14px;
   left: 5.03%;
   right: 48.43%;
-  top: 12.03%;
+  top: 19.03%;
   font-family: 'Lato';
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
   line-height: 14px;
+  letter-spacing: 0.05em;
   color: #5A5F7D;
 }
 
 .NumberOfTeams{
   position: absolute;
   height: 14px;
-  left: 5.03%;
+  left: 5.5%;
   right: 74.43%;
-  top: 52.03%;
+  top: 55.03%;
   font-family: 'Lato';
   font-style: normal;
   font-weight: 700;

@@ -8,9 +8,9 @@ export default function SideBar() {
   return (
     <>
       <div className="sidebar">
-        <Link to="/dashboard" style={{ marginTop: '70px' }}>
-          <img src={houseIcon} alt="houseIcon" style={{ marginTop: '-3px' }} />{' '}
-          Dashboard
+        <Link to="/dashboard" style={{ marginTop: '10%' }}>
+          <img src={houseIcon} alt="houseIcon" style={{ marginTop: '-3px' }} />
+          &nbsp;&nbsp;&nbsp; Dashboard
         </Link>
         <Link to={'/login'}>
           <svg
@@ -29,7 +29,7 @@ export default function SideBar() {
               fill="#ADB4D2"
             />
           </svg>
-          &nbsp;Logout
+          &nbsp;&nbsp;&nbsp; Logout
         </Link>
       </div>
     </>

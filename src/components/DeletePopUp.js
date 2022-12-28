@@ -2,7 +2,7 @@ import React from 'react';
 import '../Styles/DeletePopupStyles.css';
 import '@fontsource/lato';
 
-export default function DeletePopUp() {
+export default function DeletePopUp(prop) {
   return (
     <>
       <form className="DeletePopupinner">
@@ -29,9 +29,12 @@ export default function DeletePopUp() {
           </svg>
         </div>
         <div className="DltHead">
-          Are you sure you want to delete this team?
+          Are you sure you want to delete this {prop.team}?
         </div>
-        <div className="DltTxt">This member will be deleted from the team.</div>
+        <div className="DltTxt">
+          This {prop.team} will be deleted from the{' '}
+          {prop.team === 'team' ? 'system' : 'team'}.
+        </div>
         <div className="DltBtn">
           <svg
             width="77"
@@ -51,7 +54,18 @@ export default function DeletePopUp() {
           </svg>
         </div>
 
-        <div className="cancelDltBtn">
+        <div
+          className="cancelDltBtn"
+          onClick={() => {
+            if (document.getElementById('blur')) {
+              document.getElementById('blur').classList.remove('overlay');
+              document.getElementById('demo').style.display = 'none';
+            } else {
+              document.getElementById('Blur').classList.remove('overlay2');
+              document.getElementById('Demo3').style.display = 'none';
+            }
+          }}
+        >
           <svg
             width="76"
             height="42"

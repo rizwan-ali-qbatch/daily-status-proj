@@ -6,6 +6,7 @@ import ForgetPassword from './components/ForgetPassword';
 import VarificationEmail from './components/VarificationEmail';
 import SetNewPassword from './components/SetNewPassword';
 import Dashboard from './components/DashBoard';
+import TeamDetailDashboard from './components/TeamDetailDashboard';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/forgetpassword" element={<ForgetPassword />} />
           <Route path="/setpassword" element={<SetNewPassword />} />
           <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/teamdetail" element={<TeamDetailDashboard />} />
           <Route
             path="/*"
             element={<h1 className="text-center py-5">Invalid URL</h1>}

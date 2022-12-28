@@ -1,5 +1,6 @@
 import React from 'react';
 import '../Styles/ShowMemberStyles.css';
+import memberIcon from '../assets/MemberRectangleicon.svg';
 import '@fontsource/lato';
 
 export default function ShowMember() {
@@ -21,14 +22,15 @@ export default function ShowMember() {
         </svg>
         <div className="ShowMemberName">John Doe</div>
         <div className="ShowMemberImg">
-          <img
+          <img src={memberIcon} alt="Member Icon" />
+          {/* <img
             src={''}
             alt=" "
             style={{
               paddingTop: '10px',
               paddingLeft: '12px',
             }}
-          />
+          /> */}
         </div>
         <div className="ShowMemberCloseBtn">
           <svg

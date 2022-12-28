@@ -1,9 +1,9 @@
 .FooterDash{
-  z-index: -2;
+  z-index: -1;
   position: absolute;
-  left: 17.11%;
+  left: 18.1%;
   right: 0%;
-  top: 875px;
+  top: 878px;
   bottom: 0%;
   background: #FFFFFF;
 }

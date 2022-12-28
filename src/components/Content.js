@@ -2,26 +2,26 @@ import React from 'react';
 import '../Styles/ContentStyles.css';
 import '@fontsource/lato';
 import DashboardCard from './DashboardCard';
-// import CreateNewTeam from './CreateNewTeam';
-// import TeamMemberComponent from './TeamMemberComponent';
+import CreateNewTeam from './CreateNewTeam';
+import TeamMemberComponent from './TeamMemberComponent';
 import EditTeam from './EditTeam';
-// import DeletePopUp from './DeletePopUp';
+import DeletePopUp from './DeletePopUp';
 
 export default function Content() {
   return (
     <>
-      <div
-        id="blur"
-        // onClick={() => {
-        //   document.getElementById('blur').classList.remove('overlay');
-        //   document.getElementById('demo').style.display = 'none';
-        // }}
-      >
-        <div id="demo">
-          {/* <CreateNewTeam /> */}
-          {/* <TeamMemberComponent /> */}
+      <div id="blur">
+        <div id="demo1">
+          <CreateNewTeam />
+        </div>
+        <div id="demo2">
+          <TeamMemberComponent />
+        </div>
+        <div id="demo3">
           <EditTeam />
-          {/* <DeletePopUp /> */}
+        </div>
+        <div id="demo">
+          <DeletePopUp team={'team'} />
         </div>
       </div>
       <div className="content DashboardProp">
@@ -29,7 +29,7 @@ export default function Content() {
         <div
           onClick={() => {
             document.getElementById('blur').classList.add('overlay');
-            document.getElementById('demo').style.display = 'initial';
+            document.getElementById('demo1').style.display = 'initial';
           }}
           className="CreateNewTeamBtn"
         >
@@ -186,7 +186,6 @@ export default function Content() {
             </svg>
           </div>
         </div>
-
         <DashboardCard />
       </div>
     </>
