@@ -34,16 +34,16 @@ export default function Content() {
           className="CreateNewTeamBtn"
         >
           <svg
-            width="162"
+            width="172"
             height="40"
-            viewBox="0 0 162 40"
+            viewBox="0 0 172 40"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
             <rect
               x="0.5"
               y="0.5"
-              width="161"
+              width="171"
               height="39"
               rx="4.5"
               fill="white"

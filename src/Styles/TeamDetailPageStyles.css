@@ -48,7 +48,7 @@ div.TeamDetail {
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.06em;
   color: #272B41;
 }
 
@@ -56,7 +56,7 @@ div.TeamDetail {
   position: absolute;
   width: 106px;
   height: 20px;
-  left: 2%;
+  left: 2.2%;
   top: 4%;
 
   font-family: 'Lato';
@@ -64,6 +64,7 @@ div.TeamDetail {
   font-weight: 700;
   font-size: 20px;
   line-height: 20px;
+  letter-spacing: 0.05em;
   color: #000000;
 }
 
@@ -73,7 +74,7 @@ div.TeamDetail {
   height: 87%;
   left: 1.86%;
   right: 43.05%;
-  top: 9%;
+  top: 10%;
   bottom: 52.39%;
   background: #FFFFFF;
   border-radius: 10px;
@@ -82,14 +83,14 @@ div.TeamDetail {
 .TeamDatailAddTeamBtn{
   cursor: pointer;
   position: absolute;
-  right: 27%;
+  right: 27.4%;
   top: 3%;
 }
 
 .TeamDatailEditTeamBtn{
   cursor: pointer;
   position: absolute;
-  right: 15%;
+  right: 15.5%;
   top: 3%;
 }
 
@@ -102,10 +103,10 @@ div.TeamDetail {
 
 .TeamDetailImgbox{
   position: absolute;
-  left: 2%;
-  top: 12%;
-  width: 100px;
-  height: 100px;
+  left: 2.5%;
+  top: 12.2%;
+  width: 105px;
+  height: 105px;
   background: #EFF2F7;
   border-radius: 10px;
 }
@@ -120,24 +121,25 @@ div.TeamDetail {
 
 .DevTeamHeadInTeamDetail{
   position: absolute;
-  left: 12%;
-  top: 12%;
+  left: 13.8%;
+  top: 12.2%;
 
   font-family: 'Lato';
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 16px;
+  letter-spacing: 0.03rem;
   color: #272B41;
 }
 
 
 .TeamAttr1{
   position: absolute;
-  width: 110px;
+  width: 126px;
   height: 14px;
-  left: 12%;
-  top: 16%;
+  left: 13.8%;
+  top: 17.2%;
   font-family: 'Lato';
   font-style: normal;
   font-weight: 600;
@@ -145,6 +147,7 @@ div.TeamDetail {
   line-height: 14px;
   display: flex;
   align-items: center;
+  letter-spacing: 0.025rem;
   color: #272B41;
 }
 
@@ -152,8 +155,8 @@ div.TeamDetail {
   position: absolute;
   width: 110px;
   height: 14px;
-  left: 35%;
-  top: 16%;
+  left: 35.1%;
+  top: 17.2%;
   font-family: 'Lato';
   font-style: normal;
   font-weight: 600;
@@ -161,6 +164,7 @@ div.TeamDetail {
   line-height: 14px;
   display: flex;
   align-items: center;
+  letter-spacing: 0.02rem;
   color: #272B41;
 }
 
@@ -168,8 +172,8 @@ div.TeamDetail {
   position: absolute;
   width: 150px;
   height: 14px;
-  left: 12%;
-  top: 20%;
+  left: 13.8%;
+  top: 22%;
   font-family: 'Lato';
   font-style: normal;
   font-weight: 600;
@@ -177,15 +181,16 @@ div.TeamDetail {
   line-height: 14px;
   display: flex;
   align-items: center;
+  letter-spacing: 0.02rem;
   color: #272B41;
 }
 
 .TeamAttr4{
   position: absolute;
-  width: 110px;
+  width: 120px;
   height: 14px;
-  left: 35%;
-  top: 20%;
+  left: 35.1%;
+  top: 22%;
   font-family: 'Lato';
   font-style: normal;
   font-weight: 600;
@@ -193,6 +198,7 @@ div.TeamDetail {
   line-height: 14px;
   display: flex;
   align-items: center;
+  letter-spacing: 0.02rem;
   color: #272B41;
 }
 
@@ -200,8 +206,8 @@ div.TeamDetail {
   position: absolute;
   width: 110px;
   height: 14px;
-  left: 12%;
-  top: 24%;
+  left: 13.8%;
+  top: 27.2%;
   font-family: 'Lato';
   font-style: normal;
   font-weight: 600;
@@ -214,11 +220,10 @@ div.TeamDetail {
 
 .TeamVal1{
   position: absolute;
-  width: 59px;
+  width: 10%;
   height: 16px;
-  left: 22%;
-  top: 16%;
-
+  left: 24.2%;
+  top: 17.2%;
   font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
@@ -226,6 +231,7 @@ div.TeamDetail {
   line-height: 16px;
   display: flex;
   align-items: center;
+  letter-spacing: 0.02rem;
   color: #747890;
 }
 
@@ -233,8 +239,8 @@ div.TeamDetail {
   position: absolute;
   width: 59px;
   height: 16px;
-  left: 45%;
-  top: 16%;
+  left: 45.2%;
+  top: 17.2%;
 
   font-family: 'Lato';
   font-style: normal;
@@ -243,6 +249,7 @@ div.TeamDetail {
   line-height: 16px;
   display: flex;
   align-items: center;
+  letter-spacing: 0.03rem;
   color: #747890;
 }
 
@@ -250,8 +257,8 @@ div.TeamDetail {
   position: absolute;
   width: 59px;
   height: 16px;
-  left: 24%;
-  top: 20%;
+  left: 26.2%;
+  top: 22%;
 
   font-family: 'Lato';
   font-style: normal;
@@ -267,9 +274,8 @@ div.TeamDetail {
   position: absolute;
   width: 159px;
   height: 16px;
-  left: 45%;
-  top: 20%;
-
+  left: 45.3%;
+  top: 22%;
   font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
@@ -277,28 +283,29 @@ div.TeamDetail {
   line-height: 16px;
   display: flex;
   align-items: center;
+  letter-spacing: 0.04rem;
   color: #747890;
 }
 
 .TeamVal5{
   position: absolute;
-  width: 59px;
+  width: 10%;
   height: 16px;
-  left: 16%;
-  top: 23.3%;
+  left: 18.3%;
+  top: 26.3%;
 }
 
 
 .TeamDetailTeamMemberHead{
   position: absolute;
-  left: 2%;
-  top: 35%;
-
+  left: 2.5%;
+  top: 37%;
   font-family: 'Lato';
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 20px;
   color: #000000;
+  letter-spacing: 0.04rem;
 }
 

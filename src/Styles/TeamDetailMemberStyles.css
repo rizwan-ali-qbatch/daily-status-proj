@@ -1,10 +1,10 @@
 .dashboardcardcomp3{
   position: absolute;
-  width: 30%;
-  height: 30%;
-  left: 1.86%;
+  width: 30.4%;
+  height: 32.2%;
+  left: 2.4%;
   right: 43.05%;
-  top: 41%;
+  top: 45.2%;
   bottom: 52.39%;
   background: #FFFFFF;
   border-radius: 10px;
@@ -14,11 +14,11 @@
 
 
 .MemberDetailName{
-  width: 68px;
+  width: 90%;
   height: 16px;
   position: absolute;
-  left: 42%;
-  top: 59%;
+  left: 40%;
+  top: 63%;
 
   font-family: 'Lato';
   font-style: normal;
@@ -27,16 +27,16 @@
   line-height: 16px;
   display: flex;
   align-items: center;
+  letter-spacing: 0.03rem;
   color: #272B41;
 }
 
 .MemberDetailProf{
-  width: 124px;
+  width: 90%;
   height: 16px;
   position: absolute;
-  left: 33%;
-  top: 69%;
-
+  left: 31%;
+  top: 74%;
   font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
@@ -44,16 +44,16 @@
   line-height: 16px;
   display: flex;
   align-items: center;
+  letter-spacing: 0.02rem;
   color: #747890;
 }
 
 .MemberDetailMail{
   position: absolute;
-  width: 134px;
+  width: 90%;
   height: 16px;
-  left: 32%;
-  top: 79%;
-
+  left: 30%;
+  top: 85%;
   font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
@@ -61,12 +61,13 @@
   line-height: 16px;
   display: flex;
   align-items: center;
+  letter-spacing: 0.02rem;
   color: #747890;
 }
 
 .DltBtnInTeamDetail{
   position: absolute;
   cursor: pointer;
-  right: 5.76%;
-  top: 4%;
+  right: 5%;
+  top: 5%;
 }

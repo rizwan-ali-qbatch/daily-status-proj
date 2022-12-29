@@ -3,10 +3,10 @@
   position: sticky;
   width: 628px;
   height: 394px;
-  left: 420px;
-  top: 87px;
+  left: 433px;
+  top: 183px;
   background: #FFFFFF;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
   border-radius: 5px;
 }
 
@@ -15,8 +15,8 @@
   position: absolute;
   width: 254px;
   height: 28px;
-  left: 5%;
-  top: 5%;
+  left: 3.8%;
+  top: 4%;
   font-family: 'Lato';
   font-style: normal;
   font-weight: 700;
@@ -32,15 +32,15 @@
   position: absolute;
   left: 0%;
   right: 0%;
-  top: 16.93%;
-  bottom: 83.07%;
+  top: 14.93%;
+  bottom: 85.07%;
   border: 1px solid #E3E6EF;
 }
 
 .TeamName{
   position: absolute;
   height: 14px;
-  left: 4.09%;
+  left: 3.8%;
   right: 67.79%;
   top: calc(41% - 14px/2 - 69px);
   font-family: 'Lato';
@@ -56,11 +56,11 @@
 
 .TeamNameField{
   position: absolute;
-  left: 4.09%;
+  left: 3.8%;
   right: 30.09%;
-  top: 26.62%;
-  bottom: 61.29%;
-  width: 91%;
+  top: 26.2%;
+  bottom: 63.29%;
+  width: 92.2%;
   background: #FFFFFF;
   border-radius: 4px;
 }
@@ -69,9 +69,9 @@
 .TeamLeadName{
   position: absolute;
   height: 14px;
-  left: 4.09%;
+  left: 3.8%;
   right: 66.18%;
-  top: calc(42% - 14px/2 + 13px);
+  top: calc(41% - 14px/2 + 13px);
   font-family: 'Lato';
   font-style: normal;
   font-weight: 600;
@@ -84,11 +84,11 @@
 
 .TeamLeadNameField{
   position: absolute;
-  left: 4.09%;
+  left: 3.8%;
   right: 30.09%;
-  top: 49.05%;
-  bottom: 38.86%;
-  width: 43%;
+  top: 47.05%;
+  bottom: 42.86%;
+  width: 44%;
   background: #FFFFFF;
   border-radius: 4px;
 }
@@ -98,7 +98,7 @@
   height: 14px;
   left: 52.09%;
   right: 31.18%;
-  top: calc(42% - 14px/2 + 13px);
+  top: calc(41% - 14px/2 + 13px);
   font-family: 'Lato';
   font-style: normal;
   font-weight: 600;
@@ -113,9 +113,9 @@
   position: absolute;
   left: 52.09%;
   right: 33.09%;
-  top: 49.05%;
-  bottom: 38.86%;
-  width: 43%;
+  top: 47.05%;
+  bottom: 42.86%;
+  width: 44%;
   background: #FFFFFF;
   border-radius: 4px;
 }
@@ -123,7 +123,7 @@
 .AddTeamMembersTxt{
   position: absolute;
   height: 14px;
-  left: 4.09%;
+  left: 3.8%;
   right: 66.18%;
   top: calc(62% - 14px/2 + 13px);
   font-family: 'Lato';
@@ -138,24 +138,20 @@
 
 .AddTeamMembersField{
   position: absolute;
-  left: 4.09%;
+  left: 3.8%;
   right: 30.09%;
-  top: 69.05%;
-  bottom: 18.86%;
-  width: 91%;
+  top: 68.05%;
+  bottom: 21.86%;
+  width: 92.2%;
   background: #FFFFFF;
   border-radius: 4px;
 }
-
-/* .AddTeamMembersField:before{
-
-} */
 
 .createTeamBtn{
   position: absolute;
   width: 110px;
   height: 40px;
-  left: 78.09%;
+  left: 78.4%;
   right: 30.09%;
   top: 84.32%;
   bottom: 6.89%;

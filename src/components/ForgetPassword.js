@@ -30,7 +30,9 @@ export default function ForgetPassword() {
             className="ForgetPassField form-control"
             placeholder="name@qbatch.com"
           />
-          <button className="SendResetInst">Send Reset Instructions</button>
+          <Link to="/varification">
+            <button className="SendResetInst">Send Reset Instructions</button>
+          </Link>
           <div className="ortxtinForgetPass">or</div>
 
           <div className="returntotxt">Return to</div>

@@ -12,8 +12,8 @@ export default function TeamDetailMemberComponent() {
           alt="Member Img"
           style={{
             position: 'absolute',
-            top: '6%',
-            left: '36%',
+            top: '8%',
+            left: '35%',
             width: '30%',
             cursor: 'pointer',
             borderRadius: '50%',

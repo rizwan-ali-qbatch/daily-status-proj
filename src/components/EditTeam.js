@@ -69,17 +69,17 @@ export default function EditTeam() {
           style={{
             position: 'absolute',
             left: '52.09%',
-            top: '49.5%',
+            top: '46.5%',
           }}
         >
           <select
-            className="btn btn-light dropdown-toggle"
+            className="btn dropdown-toggle"
             style={{
               border: '1px solid #E3E6EF',
               color: '#747890',
-              width: '280%',
+              width: '282%',
               margin: '0px',
-              padding: '13%',
+              padding: '11%',
               textAlign: 'left',
             }}
           >
@@ -88,14 +88,14 @@ export default function EditTeam() {
           </select>
         </div>
 
-        <label className="AddTeamMembersTxtInEdit">Add Team Members</label>
+        <label className="AddTeamMembersTxtInEdit">Team Members</label>
         <input
           className="AddTeamMembersFieldInEdit form-control"
           type="text"
           placeholder="Search Members"
         />
 
-        <button className="confirmBtnInEdit">Create Team</button>
+        <button className="confirmBtnInEdit">Confirm</button>
         <div
           className="cancelBtnInEdit"
           onClick={() => {

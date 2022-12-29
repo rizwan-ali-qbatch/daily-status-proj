@@ -1,28 +1,36 @@
 .inner{
   position: absolute;
-  margin: auto;
-  top: 1.5%;
+  top: 11%;
   width: 47%;
-  height: 80%;
+  height: 82%;
+
+  margin: auto;
   background: #FFFFFF;
   box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
   border-radius: 5px;
+  padding: 40px 50px;
 }
 
-.Qbatch_logo_remove_bg_preview1{
+@media screen and (max-width: 590px) {
+  .inner {
+    width: 100%;
+  }
+}
+
+/* .Qbatch_logo_remove_bg_preview1{
   position: absolute;
   width: 33%;
   height: 12%;
   left: 33.5%;
-  top: 8%;
-}
+  top: 7%;
+} */
 
 .sign_in_to_your_account{
-  position: absolute;
+  /* position: absolute;
   width: 95%;
   height: 13%;
   left: 7.8%;
-  top: 30%;
+  top: 30%; */
   font-family: 'Lato';
   font-style: normal;
   font-weight: 700;
@@ -36,11 +44,11 @@
 }
 
 .Email{
-  position: absolute;
+  /* position: absolute;
   height: 14px;
   left: 7.8%;
   right: 67.79%;
-  top: 45.8%;
+  top: 45.8%; */
   font-family: 'Lato';
   font-style: normal;
   font-weight: 600;
@@ -54,23 +62,22 @@
 
 
 .EmailField{
-  position: absolute;
+  /* position: absolute;
   left: 7.6%;
   right: 30.09%;
   top: 49%;
-  bottom: 42.8%;
-  width: 84.8%;
+  bottom: 42.8%; */
   background: #FFFFFF;
   border-radius: 4px;
 }
 
 
 .Password{
-  position: absolute;
-  height: 14px;
+  /* position: absolute;
   left: 7.9%;
   right: 66.18%;
-  top: 62%;
+  top: 62%; */
+  height: 14px;
   font-family: 'Lato';
   font-style: normal;
   font-weight: 600;
@@ -83,32 +90,23 @@
 }
 
 .PasswordField{
-  position: absolute;
-  left: 7.6%;
-  right: 30.09%;
-  top: 65.2%;
-  bottom: 26.5%;
-  width: 84.8%;
   background: #FFFFFF;
   border-radius: 4px;
 }
 
 .chkbox{
-  position: absolute;
-  left: 7.8%;
-  top: 76%;
-  bottom: 37.79%;
   border: 1px solid #E3E6EF;
   display: inline-block;
   border-radius: 3.5px;
+  margin: 2px;
 }
 
 .keep_me_logged_in{
-  position: absolute;
+  /* position: absolute;
   height: 6%;
   width: 20%;
   left: 11.25%;
-  top: 76.5%;
+  top: 76.5%; */
   font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
@@ -122,72 +120,44 @@
 }
 
 .forgotPassword{
-  position: absolute;
-  height: 1%;
-  width: 40%;
-  left: 64%;
+  /* position: absolute;
+  left: 73%;
   right: 5%;
-  top: 75%;
+  top: 75%; */
   font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
+  float: right;
   /* font-size: 0.9722222222222222vw; */
   font-size: 14px;
   letter-spacing: 0.04em;
   line-height: 16px;
-  display: inline-block;
   align-items: center;
   color: #0054A6;
+  padding: 0  ;
 }
 
 .sign_in_btn{
   cursor: pointer;
-  position: absolute;
-  width: 85%;
+  /* position: absolute;
   left: 7.5%;
   right: 30.09%;
   top: 89%;
-  bottom: 2.8%;
+  bottom: 2.8%; */
+  width: 100%;
   color: white;
   background: #0054A6;
   border-radius: 5px;
   border: 1px solid #0054A6;
 }
 
-.line_74{
-  position: absolute;
-  left: 51.68%;
-  right: 39.68%;
-  top: 77.48%;
-  bottom: 22.39%;
-  border: 1px solid #E3E6EF;
-}
-
-.line_73{
-  position: absolute;
-  left: 39.68%;
-  right: 51.68%;
-  top: 77.48%;
-  bottom: 22.39%;
-  border: 1px solid #E3E6EF;
-}
-
-.line46{
-  position: absolute;
-  left: 67.94%;
-  right: 31.04%;
-  top: 54.71%;
-  bottom: 43.51%;
-  border: 1.8px solid #ADB4D2;
-}
-
 .or{
-  position: absolute;
   height: 16px;
+  /* position: absolute;
   left: 49%;
   right: -7.69%;
-  top: calc(82% - 16px/2 - 0.5px);
+  top: calc(82% - 16px/2 - 0.5px); */
   font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
@@ -199,11 +169,11 @@
 }
 
 .Not_a_member_yet{
-  position: absolute;
+  /* position: absolute;
   height: 16px;
   left: 36.73%;
   right: 6.66%;
-  top: calc(47% - 16px/2 + 257px);
+  top: calc(47% - 16px/2 + 257px); */
   font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
@@ -213,11 +183,11 @@
 }
 
 .sign_up{
-  position: absolute;
+  /* position: absolute;
   height: 16px;
   left: 53.78%;
   right: 33.9%;
-  top: calc(47% - 16px/2 + 257px);
+  top: calc(47% - 16px/2 + 257px); */
   font-family: 'Lato';
   font-style: normal;
   font-weight: 400;

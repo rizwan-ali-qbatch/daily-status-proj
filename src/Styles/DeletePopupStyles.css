@@ -12,8 +12,8 @@
 
 .DltIcon{
   position: absolute;
-  left: 42.49%;
-  top: 10.14%;
+  left: 43.5%;
+  top: 8.14%;
   width: 58px;
   height: 62px;
 }
@@ -22,9 +22,8 @@
   position: absolute;
   width: 312px;
   height: 56px;
-  left: 15.19%;
-  top: 35.28%;
-
+  left: 14.19%;
+  top: 37.28%;
   font-family: 'Lato';
   font-style: normal;
   font-weight: 700;
@@ -33,15 +32,14 @@
   display: flex;
   align-items: center;
   text-align: center;
-  letter-spacing: 0.02em;
-  color: #272B41;
+  letter-spacing: 0.03em;
 }
 
 .DltTxt{
   position: absolute;
   width: 267px;
-  left: 20.17%;
-  top: 59.78%;
+  left: 19.8%;
+  top: 64.8%;
   font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
@@ -49,6 +47,7 @@
   line-height: 16px;
   text-align: center;
   color: #5A5F7D;
+  letter-spacing: 0.008rem;
 }
 
 .DltBtn{
@@ -57,14 +56,14 @@
   height: 40px;
   left: 52%;
   cursor:pointer;
-  bottom: 6.89%;
+  bottom: 8.89%;
 }
 
 .cancelDltBtn{
   position: absolute;
   width: 74px;
   height:40px;
-  left: 30%;
-  bottom: 6.89%;
+  left: 31%;
+  bottom: 8.89%;
   cursor:pointer;
 }

@@ -7,8 +7,8 @@ export default function TeamMemberComponent() {
   return (
     <>
       <form className="NewMemberForminner">
-        <div className="CreateNewTeamHead">Add Team Members</div>
-        <div className="headboarder"></div>
+        <div className="CreateNewTeamHead2">Add Team Members</div>
+        <div className="headboarder2"></div>
         <div
           className="closeBtn"
           onClick={() => {

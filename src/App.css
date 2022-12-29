@@ -1,4 +1,25 @@
 .backgroundcls{
+
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* background-image: url("./assets/UpdatedQbatchBackground.svg"); */
+  /* background-size: 143% 162%; */
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+}
+
+.backgroundsize{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
+/* .backgroundcls{
   overflow: hidden;
   width: 100%;
   height: 100vh;
@@ -12,7 +33,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
+} */
 
 /*
 .Rectangle1{
