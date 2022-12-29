@@ -63,6 +63,8 @@
   width: 92.2%;
   background: #FFFFFF;
   border-radius: 4px;
+  background: url("../assets/searchicon.svg") left center no-repeat;
+  padding-left:25px;
 }
 
 

@@ -14,7 +14,7 @@ export default function VarificationEmail() {
           src={backgroundimg}
           alt="backgroundImg"
         />
-        <form className="VarificationEmailinner">
+        <form className="text-center VarificationEmailinner">
           <img
             className="Qbatch_logo_in_VarificationEmail"
             src={myimage}
@@ -24,8 +24,17 @@ export default function VarificationEmail() {
             Verification Email Sent
           </div>
           <img className="innerEmailLogo" src={emailimg} alt="Email Icon" />
-          <div className="emailrcvtxt">If you didn't receive the email</div>
-          <div className="clickHereBtn">Click here</div>
+          <div className="emailrcvtxt">
+            If you didn't receive the email
+            <label
+              className="clickHereBtn"
+              onClick={() => {
+                console.log('clicked');
+              }}
+            >
+              &nbsp;Click here
+            </label>
+          </div>
         </form>
       </div>
     </>

@@ -14,12 +14,15 @@ export default function SetNewPassword() {
           src={backgroundimg}
           alt="backgroundImg"
         />
-        <form className="SetNewPasswordinner">
-          <img
-            className="Qbatch_logo_in_NewPass"
-            src={myimage}
-            alt="Logo Icon"
-          />
+        <form className="text-center SetNewPasswordinner">
+          <div className="text-center">
+            <img
+              className="Qbatch_logo_in_NewPass"
+              src={myimage}
+              alt="Logo Icon"
+            />
+          </div>
+
           <div className="SetNewPasswordHead">Set New Password</div>
           <p className="SetNewPasswordInst">
             Please enter new strong password to be used for your Qbatch account.
@@ -36,10 +39,14 @@ export default function SetNewPassword() {
           />
           <button className="sign_in_btn2">Reset Password</button>
           <div className="ortxtinnewPass">or</div>
-          <div className="returntxt">Return to</div>
-          <Link to={'/login'}>
-            <div className="sign_In">Sign In</div>
-          </Link>
+          <div className="returntxt">
+            Return to
+            <Link to={'/login'}>
+              <label style={{ cursor: 'pointer' }} className="sign_In">
+                &nbsp;Sign In
+              </label>
+            </Link>
+          </div>
         </form>
       </div>
     </>

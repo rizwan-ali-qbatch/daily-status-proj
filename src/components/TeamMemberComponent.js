@@ -52,6 +52,7 @@ export default function TeamMemberComponent() {
           type="text"
           placeholder="Search Members"
         />
+
         <ShowMember />
 
         <button className="confirmMemberBtn">Confirm</button>

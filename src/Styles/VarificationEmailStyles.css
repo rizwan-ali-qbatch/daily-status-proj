@@ -1,42 +1,49 @@
 .VarificationEmailinner{
   position: absolute;
-  margin: auto;
-  top: 1%;
+
+  /* top: 1%;
   width: 47%;
-  height: 98%;
+  height: 98%; */
+
+  top: 11%;
+  width: 47%;
+  height: 82%;
+
+  margin: auto;
   background: #FFFFFF;
   box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
   border-radius: 5px;
-  /* position: absolute;
-  width: 644px;
-  height: 611px;
-  left: 398px;
-  top: 87px;
-  background: #FFFFFF;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 5px; */
+  padding: 40px 50px;
 }
 
-@media screen and (max-width: 590px) {
+@media screen and (max-width: 920px) {
   .VarificationEmailinner {
     width: 100%;
   }
 }
 
-.Qbatch_logo_in_VarificationEmail{
-  position: absolute;
-  width: 25.5%;
+@media screen and (max-height: 920px) {
+  .VarificationEmailinner {
+    height: auto;
+  }
+}
+
+ .Qbatch_logo_in_VarificationEmail{
+  /* position: absolute;
   height: 12%;
   left: 37%;
-  top: 5.5%;
+  top: 5.5%; */
+  width: 30%;
 }
 
 .VarificationEmailHeading{
-  position: absolute;
+  /* position: absolute;
   width: 80%;
   height: 12%;
   left: 7.8%;
-  top: 24%;
+  top: 24%; */
+  margin-top: 5%;
+  margin-bottom: 2%;
   font-family: 'Lato';
   font-style: normal;
   font-weight: 700;
@@ -49,19 +56,22 @@
 }
 
 .innerEmailLogo{
-  position: absolute;
+  /* position: absolute;
   width: 48%;
   height: 69%;
   left: 25%;
-  top: 24%;
+  top: 24%; */
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .emailrcvtxt{
-  position: absolute;
+  /* position: absolute;
   height: 16px;
   left: 30.73%;
   right: 40.66%;
-  bottom: 13%;
+  bottom: 13%; */
+  margin-top: 10%;
   font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
@@ -72,18 +82,18 @@
 }
 
 .clickHereBtn{
-  position: absolute;
-  cursor: pointer;
+  /* position: absolute;
   height: 16px;
   left: 60%;
   right: 0%;
-  bottom: 13%;
+  bottom: 13%; */
+  cursor: pointer;
   font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
-  display: flex;
-  align-items: center;
   color: #0054A6;
+  /* display: flex;
+  align-items: center; */
 }

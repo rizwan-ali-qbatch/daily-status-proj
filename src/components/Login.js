@@ -43,7 +43,7 @@ export default function Login() {
                 type="checkbox"
                 id="check"
               />
-              &nbsp; Keep me logged in
+              &nbsp;Keep me logged in
             </label>
             <Link to="/forgetpassword">
               <label className="btn forgotPassword my-2">
